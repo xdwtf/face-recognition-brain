@@ -30,7 +30,8 @@ class Register extends React.Component {
         email: this.state.email,
         password: this.state.password,
         name: this.state.name
-      })
+      }),
+      crossDomain: true
     })
       .then(response => response.json())
       .then(user => {
