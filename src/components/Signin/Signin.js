@@ -24,7 +24,8 @@ class Signin extends React.Component {
       body: JSON.stringify({
         email: this.state.signInEmail,
         password: this.state.signInPassword
-      })
+      }),
+      crossDomain: true
     })
       .then(response => response.json())
       .then(user => {
