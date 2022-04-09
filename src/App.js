@@ -78,7 +78,8 @@ class App extends Component {
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
           input: this.state.input
-        })
+        }),
+        crossDomain: true
       })
       .then(response => response.jason())
       .then(response => {
@@ -88,7 +89,8 @@ class App extends Component {
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
               id: this.state.user.id
-            })
+            }),
+            crossDomain: true
           })
             .then(response => response.json())
             .then(count => {
