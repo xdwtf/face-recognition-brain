@@ -83,7 +83,7 @@ class App extends Component {
       .then(response => response.jason())
       .then(response => {
         if (response) {
-          fetch('https://shrouded-springs-54542.herokuapp.com/image', {
+          fetch(`${process.env.REACT_APP_BACKEND}/image`, {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
