@@ -1,20 +1,19 @@
 {
   "name": "facerecognitionbrain",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "engines": {
     "node": "16.x"
   },
   "private": true,
   "dependencies": {
     "clarifai": "^2.9.1",
-    "knex": "1.0.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-tsparticles": "1.43.1",
-    "react-scripts": "5.0.0",
+    "knex": "^1.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-particles-js": "^3.3.0",
+    "react-scripts": "^4.0.3",
     "react-tilt": "^0.1.4",
-    "tachyons": "^4.12.0",
-    "tsparticles": "1.43.1"
+    "tachyons": "^4.12.0"
   },
   "scripts": {
     "start": "react-scripts start",
