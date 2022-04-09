@@ -14,7 +14,7 @@ jobs:
 
       - name: Update package.json
         id: update
-        uses: tjololo/npm-package-update-sync@v1
+        uses: khurrumqureshi/npm-package-update-sync-latest@v1.9.0
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
